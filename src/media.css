@@ -1,0 +1,31 @@
+@media screen and (max-width: 1200px) {
+    .plans{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .business{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .categories,.search,.teach,.acc-btns{
+        display: none;
+    }
+
+    nav{
+        justify-content: space-between;
+    }
+
+    .search-icon-toggle{
+        display: block;
+    }
+
+    .menu{
+        display: block;
+    }
+
+}
